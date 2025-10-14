@@ -9,14 +9,14 @@ const App = () => {
   // // const name = "Prem Acharya";
   // const bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua";
 
-  const [counter, setCounter] = useState(10);
+  const [countr, setCounter] = useState(10);
   // let counter = 120;
 
  const increase = () => {
-  setCounter(counter + 1);
+  setCounter(countr + 1);
   // counter++;
  }
-  console.log(counter);
+  console.log(countr);
  
   return (
     <>
