@@ -1,3 +1,8 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.user-page {
+  height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+border-radius: 10px;
+
+display: flex;
+gap: 1rem;
+
+background: url(./assets/Screenshot\ 2025-06-17\ 130219.png);
+
+
+}
+
+.img{
+  margin: auto;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.card {
+  width: 350px;
+  box-shadow: 0 0 15px grey;
 }
